@@ -1,4 +1,4 @@
-package MathUtil;
+package L09_Testing.MathUtil;
 
 public class MathUtil {
     // Returns the maximum of two numbers
@@ -56,9 +56,9 @@ public class MathUtil {
 
     // Returns the division of two numbers
     public double divide(double a, double b) {
-//        if (b == 0) {
-//            throw new IllegalArgumentException("Division by zero is not allowed.");
-//        }
+        if (b == 0) {
+            throw new IllegalArgumentException("Division by zero is not allowed.");
+        }
         return a / b;
     }
 

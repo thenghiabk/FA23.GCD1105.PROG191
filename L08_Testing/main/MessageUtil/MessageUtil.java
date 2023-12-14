@@ -1,4 +1,8 @@
-package MessageUtil;
+package L09_Testing.MessageUtil;
+
+/*
+ * This class prints the given message on console.
+ */
 
 public class MessageUtil {
 
